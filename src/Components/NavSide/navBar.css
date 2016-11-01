@@ -1,0 +1,5 @@
+:local .navSide{
+  width: 70px;
+  overflow: hidden;
+   float: left;
+}
