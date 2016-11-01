@@ -1,7 +1,7 @@
 {
-  "name": "test_react",
+  "name": "project_init",
   "version": "1.0.0",
-  "description": "",
+  "description": "基于React + Webpack + ES6 + Redux + Int Design",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -25,5 +25,13 @@
     "redux": "^3.6.0",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldEli/project_init.git"
+  },
+  "bugs": {
+    "url": "https://github.com/goldEli/project_init/issues"
+  },
+  "homepage": "https://github.com/goldEli/project_init#readme"
 }
