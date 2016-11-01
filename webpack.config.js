@@ -1,8 +1,8 @@
 module.exports = {
-    entry: './index.js',
+    entry: './src/index.js',
     output: {
-        path: __dirname,
-        filename: 'bundle.js'
+        path: './build',
+        filename: 'jsBundle.js'
     },
     resolve: {
         extensions: ['', '.js', '.jsx']
