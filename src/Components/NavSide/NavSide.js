@@ -4,6 +4,7 @@ import {Link} from 'react-router'
 import {Button} from 'antd'
 
 export default class NavSide extends Component {
+  
   render () {
     return (
       <div className = {style.navSide}>

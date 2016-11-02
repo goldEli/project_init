@@ -6,7 +6,9 @@ export default class InfoBar extends Component {
     return (
       <div className={style.infoBar}>
         <div className={style.content}>
-          <span>你好！ </span><span>admin</span>
+          <div style={{margin:'13px 0 0 37px'}}>
+            <span>你好！ </span><span>admin</span>
+          </div>
         </div>
       </div>
     )
