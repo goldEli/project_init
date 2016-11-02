@@ -30,6 +30,7 @@ export default class ModelLib extends Component {
   }
 
   render () {
+    console.debug('ModelLib this : ', this)
     return (
       <div>
         <Button onClick={this.showModal.bind(this)} type="primary">弹窗</Button>

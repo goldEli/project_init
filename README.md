@@ -1,6 +1,6 @@
 #Project initialization
 
-基于React + Webpack + ES6 + Redux + Int Design
+基于React + Webpack + React-Router + ES6 + Redux + Int Design
 
 ##init
 
@@ -36,6 +36,8 @@
 			-index.js	   		// 入口文件
 		-package.json      		// 管理包
 		-webpack.config.js 		// Webpack配置文件
+
+
 #NOTES
 
 ##React生命周期

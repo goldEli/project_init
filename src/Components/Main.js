@@ -8,6 +8,7 @@ import Content from './Content/Content.js'
 
 export default class Main extends Component {
   render () {
+    console.debug('main this : ', this)
     return (
       <div className="wrap">
         <NavSide />

@@ -1,5 +1,6 @@
 module.exports = {
     entry: './src/index.js',
+    devtool:'inline-source-map',   //debuger
     output: {
         path: './build',
         filename: 'jsBundle.js'
@@ -12,7 +13,7 @@ module.exports = {
             test: /\.js?$/,
             loader: 'babel',
             query: {
-                presets: ['react', 'es2015'],
+                presets: ['es2015','react','stage-0'],
                 plugins: [
                     ["import", [{
                         "libraryName": "antd",

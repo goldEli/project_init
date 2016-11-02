@@ -4,8 +4,9 @@ import {Link} from 'react-router'
 import {Button} from 'antd'
 
 export default class NavSide extends Component {
-  
+
   render () {
+    console.debug('navside this : ', this)
     return (
       <div className = {style.navSide}>
         <ul>

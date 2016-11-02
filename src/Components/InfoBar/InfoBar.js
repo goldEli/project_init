@@ -3,6 +3,7 @@ import style from './infoBar.css'
 
 export default class InfoBar extends Component {
   render () {
+    console.debug('infobar this : ', this)
     return (
       <div className={style.infoBar}>
         <div className={style.content}>
