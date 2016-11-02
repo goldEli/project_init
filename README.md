@@ -25,6 +25,8 @@
 * webpack打包
 
 		cnpm run dev
+
+
 ##文件目录
 
 		-build             		// 发布目录
