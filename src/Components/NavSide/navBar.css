@@ -1,9 +1,0 @@
-:local .navSide{
-  width: 70px;
-  background-color: #A0522D;
-  position: absolute!important;
-  top:0 !important;
-  bottom:0;
-  text-align:center;
-  overflow: auto;
-}

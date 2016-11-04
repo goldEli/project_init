@@ -1,9 +1,11 @@
 import {combineReducers} from 'redux';
-import AlgLibReducers from './AlgLib/algLib.reducers.js'
+import AlgLibReducers from './AlgLib/algLib.reducers.js';
+import InfoBarReducer from './infoBar/infoBar.reducer.js';
 
 const initialState = {};
 const reducers = combineReducers({
-  AlgLibReducers
+  AlgLibReducers,
+  InfoBarReducer
 },initialState)
 
 export default reducers;

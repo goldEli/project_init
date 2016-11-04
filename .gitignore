@@ -1,3 +1,4 @@
 node_modules
 jsBundle.js
 test.html
+npm-debug.log

@@ -1,0 +1,45 @@
+:local .navSide{
+  width: 70px;
+  background:url('../../images/navSide/navSide_bg.jpg') repeat;
+  position: absolute!important;
+  top:0 !important;
+  bottom:0;
+  text-align:center;
+  overflow: auto;
+  z-index: 10;
+}
+:local .navSide span{
+  margin: 0 auto;
+  display: block;
+}
+:local .navSide li{
+  text-align: center;
+  display: block;
+  padding:14px 0;
+}
+:local .navSide p{
+  color: #fff;
+  line-height: 20px;
+  margin-top: 7px;
+}
+:local .cur_bg{
+  background-color: #294368;
+}
+:local .icon_bigData, :local .icon_alg, :local .icon_model{
+  background: url('../../images/navSide/left-nav.png') no-repeat;
+}
+:local .icon_bigData{
+    width: 37px;
+    height: 28px;
+    background-position: 0, 0;
+}
+:local .icon_alg{
+    width: 30px;
+    height: 25px;
+    background-position: -39px 0;
+}
+:local .icon_model{
+    width: 22px;
+    height: 23px;
+    background-position: -71px 0;
+}

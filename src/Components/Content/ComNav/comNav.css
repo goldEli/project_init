@@ -1,0 +1,29 @@
+:local .comNav{
+  height: 39px;
+  width: 100%;
+  background-color: #fff;
+  position: absolute;
+  top:45px;
+  left: 0;
+  padding-left: 70px;
+}
+
+:local .item_active, :local .item{
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  line-height: 39px;
+  float: left;
+  height: 100%;
+  margin: 0 15px;
+}
+
+:local .item_active{
+  color: #e62f5f;
+  border-bottom: 2px solid #e62f5f;
+}
+:local .plusButton{
+  float: right;
+  margin-right: 16px;
+  margin-top:6px;
+}

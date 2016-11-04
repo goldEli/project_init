@@ -4,11 +4,28 @@ import { Input, Button, Card } from 'antd';
 import { bindActionCreators } from 'redux';
 
 import style from './algLib.css';
-import * as actions from '../../../redux/AlgLib/todolist/todolist.action.js'
+import * as actions from '../../../redux/AlgLib/todolist/todolist.action.js';
+import ComNav from '../ComNav/ComNav.js';
+import getAjax from '../../../libs/ajaxSrv/getAjax.js'
+
+
 
 
 class AlgLib extends Component {
-  index = 0
+  constructor(props) {
+    super(props);
+    this.state = {
+      comNav: ''
+    }
+  }
+  componentWillMount() {
+    let _this = this
+    getAjax.test(function (data) {
+      _this.setState({
+        comNav: data.algLib
+      })
+    })
+  }
   add = () =>{
     let inputValue = this.refs.input.refs.input.value;
     let id = this.props.data.length;
@@ -21,9 +38,9 @@ class AlgLib extends Component {
     })
   }
   render () {
-    console.debug('algLib this : ', this)
     return (
-      <div>
+      <div className={style.algLib}>
+        <ComNav comNav={this.state.comNav}/>
         <div style={{'display':'inline-block'}}>
           <Input type="text"  ref="input" placeholder="add something..." />
         </div>
