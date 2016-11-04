@@ -2,6 +2,8 @@
 
 基于React + Webpack + React-Router + ES6 + Redux + Int Design
 
+[项目结构图](http://naotu.baidu.com/file/91ac5a222205b28e2daef4273d9ab70d)
+
 ##init
 
 * 安装node.js
