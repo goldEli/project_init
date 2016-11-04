@@ -13,7 +13,6 @@ export default class NavSide extends Component {
 
   componentDidMount() {
       let name = window.location.hash.substr(2)
-      console.info(name)
       this.setState({
         classname:name
       })

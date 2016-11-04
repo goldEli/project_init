@@ -32,7 +32,6 @@ class ModelLib extends Component {
   }
 
   handleOk() {
-    console.info('clicked OK')
     this.setState({
       visible:false
     })

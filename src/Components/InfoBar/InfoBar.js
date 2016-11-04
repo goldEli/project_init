@@ -8,7 +8,7 @@ import {Button} from 'antd';
 
 class InfoBar extends Component {
   render () {
-    console.debug('infobar this', this)
+    // console.debug('infobar this', this)
     return (
       <div className={style.infoBar}>
         <div className={style.content}>
