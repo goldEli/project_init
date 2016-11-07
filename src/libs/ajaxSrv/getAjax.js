@@ -16,7 +16,7 @@ import _ from 'underscore'
      * @brief 加载数据库源组件
      */
     module.test = function (callback) {
-        $.getJSON ("/data/test.json",callback);
+        $.getJSON ("/data/comNav.json",callback);
     };
 
 

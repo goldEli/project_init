@@ -22,7 +22,7 @@ class AlgLib extends Component {
     let _this = this
     getAjax.test(function (data) {
       _this.setState({
-        comNav: data.algLib
+        comNav: {data:data.algLib, name:'algLib'}
       })
     })
   }
@@ -37,7 +37,7 @@ class AlgLib extends Component {
       return ( <p key={index}>{item.name}</p>)
     })
   }
-  render () {
+  render () {    
     return (
       <div className={style.algLib}>
         <ComNav comNav={this.state.comNav}/>

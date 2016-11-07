@@ -32,7 +32,7 @@ export default class NavSide extends Component {
       <div className = {style.navSide}>
         <ul>
           <li><span className={style.icon_bigData}></span><p>大数据<br/>机器学习</p></li>
-          <li onClick={e=>this.handleClick('AlgLib')} className={this.state.classname == 'AlgLib' || '' ? style.cur_bg : ''}><Link to="/AlgLib"><span className={style.icon_alg}></span><p>算法库</p></Link></li>
+          <li onClick={e=>this.handleClick('AlgLib')} className={this.state.classname == 'AlgLib' ? style.cur_bg : ''}><Link to="/AlgLib"><span className={style.icon_alg}></span><p>算法库</p></Link></li>
           <li onClick={e=>this.handleClick('ModelLib')} className={this.state.classname == 'ModelLib' ? style.cur_bg : ''}><Link to="/ModelLib"><span className={style.icon_model}></span><p>模型库</p></Link></li>
         </ul>
       </div>

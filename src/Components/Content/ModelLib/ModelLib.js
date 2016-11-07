@@ -21,7 +21,7 @@ class ModelLib extends Component {
     let _this = this
     getAjax.test(function (data) {
       _this.setState({
-        comNav: data.modelLib
+        comNav: {data:data.modelLib, name:'modelLib'}
       })
     })
   }
